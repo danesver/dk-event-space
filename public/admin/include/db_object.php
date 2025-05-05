@@ -205,7 +205,7 @@ class DB_Object
             $this->id = $db->the_insert_id();
             return true;
         } else {
-            echo "SQL Error (Create): " . $db->error . "<br>";
+            echo "SQL Error (Create): " . $db->last_error() . "<br>";
             return false;
         }
     }
