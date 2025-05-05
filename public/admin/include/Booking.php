@@ -12,7 +12,6 @@ class Booking extends DB_Object
         'other_wedding_type',
         'user_email',
         'wedding_date',
-        'organizer_id',
         'other_no_of_guests',
         'no_of_guest',
         'event_slot',
@@ -48,7 +47,6 @@ class Booking extends DB_Object
     public $pdf;
     public $phone;
     public $city;
-    public $organizer_id;
     public $no_of_guest;
     public $other_no_of_guests;
     public $event_slot;
