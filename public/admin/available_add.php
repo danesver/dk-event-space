@@ -27,29 +27,12 @@ ini_set('display_startup_errors', 1);
         // Skip if the current date is in the not available dates list
         foreach($not_available_dates as $item)
         {
-
-            $connection = new mysqli("localhost", "qaca", "qaca123", "qaca");
-
-            if ($connection->connect_error) {
-                die("Connection failed: " . $connection->connect_error);
-            }
             
-            $available_date = $connection->real_escape_string($item);
-            $available_start_time = $connection->real_escape_string($available_start_time);
-            $available_end_time = $connection->real_escape_string($available_end_time);
-            
-            $sql = "INSERT INTO availability (available_date, available_start_time, available_end_time) 
-                    VALUES ('$available_date', '$available_start_time', '$available_end_time')";
-            
-            if ($connection->query($sql) === TRUE) {
-                echo "Saved: " . $item . "<br>";
-            } else {
-                echo "Failed to save: " . $item . "<br>";
-                echo "Error: " . $connection->error . "<br>";
-            }
-
-                 echo "<br />";
-                print_r($item);
+            $newUser = new Availability();
+            $newUser->available_date = $item;  // Store full date
+            $newUser->available_start_time = $available_start_time;
+            $newUser->available_end_time = $available_end_time;
+            $newUser->save();
             
                    
         }
