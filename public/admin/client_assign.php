@@ -217,8 +217,12 @@
                     echo "Invalid file type.";
                 }
             }
-
-            $booking_detail->remaing_amount = $remaing_amount;
+            if($remaing_amount){
+                $booking_detail->remaing_amount = $remaing_amount;
+            }else{
+                $booking_detail->remaing_amount = 0;    
+            }
+            
             $booking_detail->payment = $payment;
             
             
@@ -276,6 +280,13 @@
             $other_wedding_type = clean($_POST['other_wedding_type']);
 
             $organizer_id = clean($_POST['organizer_id']);
+
+
+
+
+
+
+            
             $description = clean($_POST['description']);
             $visit_time = clean($_POST['visit_time']);
             $visit_date = clean($_POST['visit_date']);
