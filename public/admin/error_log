@@ -1,0 +1,314 @@
+[01-May-2025 00:43:55 Asia/Manila] PHP Notice:  Undefined variable: user_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 269
+[01-May-2025 00:43:55 Asia/Manila] PHP Notice:  Undefined variable: booking_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 279
+[01-May-2025 00:43:55 Asia/Manila] PHP Notice:  Undefined variable: gallery_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 290
+[01-May-2025 00:43:55 Asia/Manila] PHP Notice:  Undefined variable: visits in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 387
+[01-May-2025 02:43:07 Asia/Manila] PHP Notice:  Undefined variable: user_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 269
+[01-May-2025 02:43:07 Asia/Manila] PHP Notice:  Undefined variable: booking_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 279
+[01-May-2025 02:43:07 Asia/Manila] PHP Notice:  Undefined variable: gallery_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 290
+[01-May-2025 02:43:07 Asia/Manila] PHP Notice:  Undefined variable: visits in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 387
+[01-May-2025 02:44:08 Asia/Manila] PHP Notice:  Undefined index: organizer_id in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 141
+[01-May-2025 02:44:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 02:44:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 02:44:08 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 190
+[01-May-2025 02:44:08 Asia/Manila] PHP Notice:  Undefined index: organizer_id in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 141
+[01-May-2025 02:44:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 02:44:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 02:44:08 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 190
+[01-May-2025 02:56:18 Asia/Manila] PHP Notice:  Undefined property: Booking::$payment in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 555
+[01-May-2025 02:56:18 Asia/Manila] PHP Notice:  Undefined property: Booking::$payment_attachment in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 561
+[01-May-2025 02:56:18 Asia/Manila] PHP Notice:  Undefined property: Booking::$remaing_amount in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 566
+[01-May-2025 03:11:10 Asia/Manila] PHP Notice:  Undefined index: organizer_id in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 146
+[01-May-2025 03:11:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:11:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:11:10 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 03:11:10 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 206
+[01-May-2025 03:11:36 Asia/Manila] PHP Notice:  Undefined index: organizer_id in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 146
+[01-May-2025 03:11:36 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:11:36 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:11:36 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 03:11:36 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 206
+[01-May-2025 03:13:54 Asia/Manila] PHP Notice:  Undefined index: organizer_id in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 146
+[01-May-2025 03:13:54 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/miantrader/public_html/ultratesting/admin/client_assign.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 154
+[01-May-2025 03:14:21 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/miantrader/public_html/ultratesting/admin/client_assign.php:154
+Stack trace:
+#0 {main}
+  thrown in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 154
+[01-May-2025 03:14:54 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:14:54 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:14:54 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 03:14:54 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 206
+[01-May-2025 03:22:09 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:22:09 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 03:22:09 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 03:22:09 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 206
+[01-May-2025 08:39:36 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 08:39:36 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 08:39:36 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 08:39:36 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 206
+[01-May-2025 09:09:25 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:09:25 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:09:25 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 09:10:26 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:10:26 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:10:26 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 09:10:26 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 205
+[01-May-2025 09:24:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:24:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:24:10 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 202
+[01-May-2025 09:24:10 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 205
+[01-May-2025 09:26:54 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:26:54 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:26:54 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 09:26:54 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 09:30:45 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:30:45 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:31:36 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:31:36 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:32:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:32:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:32:45 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:32:45 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:33:50 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:33:50 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:34:28 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:34:28 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:34:28 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 09:34:28 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 09:43:21 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:43:21 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 09:43:21 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 09:43:21 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 11:06:01 Asia/Manila] PHP Notice:  Undefined variable: user_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 269
+[01-May-2025 11:06:01 Asia/Manila] PHP Notice:  Undefined variable: booking_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 279
+[01-May-2025 11:06:01 Asia/Manila] PHP Notice:  Undefined variable: gallery_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 290
+[01-May-2025 11:06:01 Asia/Manila] PHP Notice:  Undefined variable: visits in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 387
+[01-May-2025 11:07:17 Asia/Manila] PHP Notice:  Undefined variable: user_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 269
+[01-May-2025 11:07:17 Asia/Manila] PHP Notice:  Undefined variable: booking_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 279
+[01-May-2025 11:07:17 Asia/Manila] PHP Notice:  Undefined variable: gallery_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 290
+[01-May-2025 11:07:17 Asia/Manila] PHP Notice:  Undefined variable: visits in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 387
+[01-May-2025 11:08:57 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:08:57 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:08:57 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 11:08:57 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 11:09:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:08 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:08 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 11:09:08 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 11:09:29 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:29 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:29 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 11:09:42 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:42 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:42 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 11:09:42 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 11:09:48 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:48 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 11:09:48 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 227
+[01-May-2025 11:09:48 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 230
+[01-May-2025 13:31:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 13:31:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 13:32:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 13:32:10 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 13:35:17 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 13:35:17 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:24:47 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:24:47 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:24:47 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 241
+[01-May-2025 14:24:47 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 244
+[01-May-2025 14:25:07 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:25:07 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:25:07 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 241
+[01-May-2025 14:25:07 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 244
+[01-May-2025 14:25:31 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:25:31 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:26:07 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:26:07 Asia/Manila] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/miantrader/public_html/ultratesting/admin/include/Helper.php on line 13
+[01-May-2025 14:26:07 Asia/Manila] PHP Notice:  Undefined variable: location in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 241
+[01-May-2025 14:26:07 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/miantrader/public_html/ultratesting/admin/client_assign.php on line 244
+[01-May-2025 23:18:13 Asia/Manila] PHP Notice:  Undefined variable: user_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 269
+[01-May-2025 23:18:13 Asia/Manila] PHP Notice:  Undefined variable: booking_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 279
+[01-May-2025 23:18:13 Asia/Manila] PHP Notice:  Undefined variable: gallery_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 290
+[01-May-2025 23:18:13 Asia/Manila] PHP Notice:  Undefined variable: visits in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 387
+[01-May-2025 23:19:13 Asia/Manila] PHP Notice:  Undefined variable: user_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 269
+[01-May-2025 23:19:13 Asia/Manila] PHP Notice:  Undefined variable: booking_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 279
+[01-May-2025 23:19:13 Asia/Manila] PHP Notice:  Undefined variable: gallery_count in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 290
+[01-May-2025 23:19:13 Asia/Manila] PHP Notice:  Undefined variable: visits in /home/miantrader/public_html/ultratesting/admin/dashboard.php on line 387
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:33 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined variable: gallery in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Trying to get property 'booking_id' of non-object in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 143
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$bride in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
+[01-May-2025 23:19:36 Asia/Manila] PHP Notice:  Undefined property: Booking::$groom in /home/miantrader/public_html/ultratesting/admin/task_all_calendar.php on line 146
