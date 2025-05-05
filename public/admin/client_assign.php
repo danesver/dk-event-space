@@ -246,6 +246,7 @@
             $booking_detail->update_booking($booking_id);
            // $account_detail->save_account();
             
+             exit;
             redirect_to("client.php");
             $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
