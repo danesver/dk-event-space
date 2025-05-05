@@ -26,6 +26,12 @@
             $newUser->available_start_time = $available_start_time;
             $newUser->available_end_time = $available_end_time;
             $newUser->save();
+
+            if ($newUser->save()) {
+                echo "Saved: " . $item . "<br>";
+            } else {
+                echo "Failed to save: " . $item . "<br>";
+            }        
         }
 
         
