@@ -7,6 +7,12 @@
         $users = new Availability();
     
     if (isset($_POST['submit'])) {
+        	error_reporting(E_ALL);
+
+// Display errors in the output
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
         // Clean and retrieve data from the form
         $available_date_range = clean($_POST['available_date_range']);
         $available_start_time = clean($_POST['available_start_time']);
@@ -16,11 +22,14 @@
         // Create an array of not available dates
         $not_available_dates = explode(',', $not_available_dates_input);
         $not_available_dates = array_map('trim', $not_available_dates); // Trim whitespace
-        
+        echo "<br />";
+        print_r($not_available_dates);
         // Skip if the current date is in the not available dates list
         foreach($not_available_dates as $item)
         {
-         
+
+             echo "<br />";
+        print_r($item);
             $newUser = new Availability();
             $newUser->available_date = $item;  // Store full date
             $newUser->available_start_time = $available_start_time;
@@ -33,6 +42,8 @@
                 echo "Failed to save: " . $item . "<br>";
             }        
         }
+
+        exit;
 
         
     
