@@ -40,7 +40,7 @@
         redirect_to("available.php");
         $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
-              <strong><i class='mdi mdi-check'></i></strong> Availability for {$available_date_range} is successfully added.
+              <strong><i class='mdi mdi-check'></i></strong> Availability for {$available_date} is successfully added.
               <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
                 <span aria-hidden=\"true\">&times;</span>
               </button>
