@@ -4,7 +4,6 @@ class Availability extends DB_Object
 {
     protected static $db_table = "availability";
     protected static $db_table_fields = array(
-        'id',
         'available_date',
         'available_start_time',
         'available_end_time'
