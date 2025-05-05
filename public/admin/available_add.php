@@ -22,8 +22,7 @@ ini_set('display_startup_errors', 1);
         // Create an array of not available dates
         $not_available_dates = explode(',', $not_available_dates_input);
         $not_available_dates = array_map('trim', $not_available_dates); // Trim whitespace
-        echo "<br />";
-        print_r($not_available_dates);
+       
         // Skip if the current date is in the not available dates list
         foreach($not_available_dates as $item)
         {
@@ -34,13 +33,9 @@ ini_set('display_startup_errors', 1);
             $newUser->available_end_time = $available_end_time;
             
 
-            print_r($newUser->save());
-            exit;
-            
                    
         }
 
-        exit;
 
         
     
