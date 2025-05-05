@@ -1,6 +1,6 @@
 <?php
 
-$bdd = new PDO('mysql:host=localhost;dbname=dbwedding', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=qaca', 'qaca', 'qaca123');
 
 if (isset($_POST['Event'][0]) && isset($_POST['Event'][1]) && isset($_POST['Event'][2])){
 	
