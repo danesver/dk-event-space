@@ -34,7 +34,7 @@
               redirect_to("available.php");
               $session->message("
                 <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
-                  <strong><i class='mdi mdi-check'></i></strong>The {$users->available_date} is successfully updated.
+                  <strong><i class='mdi mdi-check'></i></strong>Availability {$users->available_date} is successfully updated.
                   <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
                     <span aria-hidden=\"true\">&times;</span>
                   </button>
