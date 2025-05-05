@@ -32,7 +32,10 @@ ini_set('display_startup_errors', 1);
             $newUser->available_date = $item;  // Store full date
             $newUser->available_start_time = $available_start_time;
             $newUser->available_end_time = $available_end_time;
-            $newUser->save();
+            
+
+            print_r($newUser->save());
+            exit;
             
                    
         }
