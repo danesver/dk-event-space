@@ -9,7 +9,7 @@
     // $guest_list =  Guest::getGuest($booking_id);
     // $booking = Booking::find_by_booking_id($booking_id);
     
-    $bdd = new PDO('mysql:host=localhost;dbname=dbwedding', 'dbwedding', 'dbweddingdbwedding');
+    $bdd = new PDO('mysql:host=localhost;dbname=qaca', 'qaca', 'qaca123');
     $sql = "SELECT id, title, location, start, end, color FROM events WHERE booking_id = {$_GET['booking_id']}";
     $req = $bdd->prepare($sql);
     $req->execute();
