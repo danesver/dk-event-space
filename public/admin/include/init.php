@@ -5,7 +5,7 @@ ob_start();
 date_default_timezone_set('Asia/Manila');
 
 // Define the root path (this should be the path to your cPanel's public_html directory)
-$webroot = "/home/zenitiq.com/qaca.asia/";
+$webroot = "/home/zenitiq.com/qaca.asia";
 
 // Define directory separators and constants based on the cPanel structure
 define('DS', DIRECTORY_SEPARATOR);
