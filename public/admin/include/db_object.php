@@ -201,10 +201,11 @@ class DB_Object
         $sql = "INSERT INTO " . static::$db_table . "(" . implode(",", array_keys($properties)) . ") ";
         $sql .= "VALUES ('" . implode("','", array_values($properties)) . "')";
 
-        if($db->query($sql)) {
+        if ($db->query($sql)) {
             $this->id = $db->the_insert_id();
             return true;
         } else {
+            echo "SQL Error (Create): " . $db->error . "<br>";
             return false;
         }
     }
