@@ -146,17 +146,32 @@ class DB_Object
         global $db;
         $properties = $this->clean_properties();
         $properties_pairs = array();
-
+    
         foreach($properties as $key => $value) {
             $properties_pairs[] = "{$key}='{$value}'";
         }
-
+    
         $sql = "UPDATE " . static::$db_table . " SET ";
         $sql .= implode(", ", $properties_pairs);
-        $sql .= " WHERE booking_id = " . $db->escape_string($this->booking_id);
-        $db->query($sql);
-        return (mysqli_affected_rows($db->connection) == 1) ? true : false;
+        $sql .= " WHERE booking_id = '" . $db->escape_string($this->booking_id) . "'";
+    
+        $result = $db->query($sql);
+    
+        if ($result) {
+            // Optional: check rows affected
+            if (mysqli_affected_rows($db->connection) === 1) {
+                return true;
+            } else {
+                echo "No rows updated — maybe booking_id not found.<br>";
+                return false;
+            }
+        } else {
+            // ❌ Show SQL error if query fails
+            echo "SQL Error (Update): " . $db->last_error() . "<br>";
+            return false;
+        }
     }
+
 
     public function update_quotation() {
         global $db;
@@ -201,10 +216,11 @@ class DB_Object
         $sql = "INSERT INTO " . static::$db_table . "(" . implode(",", array_keys($properties)) . ") ";
         $sql .= "VALUES ('" . implode("','", array_values($properties)) . "')";
 
-        if($db->query($sql)) {
+        if ($db->query($sql)) {
             $this->id = $db->the_insert_id();
             return true;
         } else {
+            echo "SQL Error (Create): " . $db->last_error() . "<br>";
             return false;
         }
     }

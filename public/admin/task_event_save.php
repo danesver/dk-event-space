@@ -1,5 +1,5 @@
 <?php 
-	$bdd = new PDO('mysql:host=localhost;dbname=dbwedding', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=qaca', 'qaca', 'qaca123');
 	if (isset($_POST['title']) && isset($_POST['start']) && isset($_POST['end']) && isset($_POST['color'])){
 
 		$title = $_POST['title'];

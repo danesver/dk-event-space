@@ -7,6 +7,12 @@
         $users = new Availability();
     
     if (isset($_POST['submit'])) {
+        	error_reporting(E_ALL);
+
+// Display errors in the output
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
         // Clean and retrieve data from the form
         $available_date_range = clean($_POST['available_date_range']);
         $available_start_time = clean($_POST['available_start_time']);
@@ -16,17 +22,20 @@
         // Create an array of not available dates
         $not_available_dates = explode(',', $not_available_dates_input);
         $not_available_dates = array_map('trim', $not_available_dates); // Trim whitespace
-        
+       
         // Skip if the current date is in the not available dates list
         foreach($not_available_dates as $item)
         {
-         
+            
             $newUser = new Availability();
             $newUser->available_date = $item;  // Store full date
             $newUser->available_start_time = $available_start_time;
             $newUser->available_end_time = $available_end_time;
             $newUser->save();
+
+                   
         }
+
 
         
     
@@ -34,7 +43,7 @@
         redirect_to("available.php");
         $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
-              <strong><i class='mdi mdi-check'></i></strong> Availability for {$available_date_range} is successfully added.
+              <strong><i class='mdi mdi-check'></i></strong> Availability for {$available_date} is successfully added.
               <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
                 <span aria-hidden=\"true\">&times;</span>
               </button>

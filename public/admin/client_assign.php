@@ -39,7 +39,7 @@
             $city = clean($_POST['city']);
             $wedding_type = clean($_POST['wedding_type']);
             $other_wedding_type = clean($_POST['other_wedding_type']);
-            $organizer_id = clean($_POST['organizer_id']);
+         
             $description = clean($_POST['description']);
             $visit_time = clean($_POST['visit_time']);
             $visit_date = clean($_POST['visit_date']);
@@ -66,7 +66,7 @@
 
             $booking_detail->user_email = $booking_detail->user_email = $email;
             $booking_detail->wedding_date = $wedding_date;
-            $booking_detail->organizer_id = $organizer_id;
+
             
             $booking_detail->wedding_status = $status;
             $booking_detail->other_no_of_guests = $other_no_of_guests;
@@ -217,8 +217,12 @@
                     echo "Invalid file type.";
                 }
             }
-
-            $booking_detail->remaing_amount = $remaing_amount;
+            if($remaing_amount){
+                $booking_detail->remaing_amount = $remaing_amount;
+            }else{
+                $booking_detail->remaing_amount = 0;    
+            }
+            
             $booking_detail->payment = $payment;
             
             
@@ -275,6 +279,13 @@
             $other_wedding_type = clean($_POST['other_wedding_type']);
 
             $organizer_id = clean($_POST['organizer_id']);
+
+
+
+
+
+
+            
             $description = clean($_POST['description']);
             $visit_time = clean($_POST['visit_time']);
             $visit_date = clean($_POST['visit_date']);

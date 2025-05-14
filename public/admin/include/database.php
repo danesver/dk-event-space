@@ -63,6 +63,11 @@ class Database
         $result = mysqli_query($this->connection, $this->sql_string);
         return $result;
     }
+
+    // ✅ Add this method to get the last error
+    function last_error() {
+        return $this->connection->error;
+    }
 }
 
 $db = new Database();

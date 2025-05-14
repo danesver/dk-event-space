@@ -1,6 +1,6 @@
 <?php
 
-$bdd = new PDO('mysql:host=localhost;dbname=dbwedding', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=qaca', 'qaca', 'qaca');
 if (isset($_POST['delete']) && isset($_POST['id'])){
 	
 	
