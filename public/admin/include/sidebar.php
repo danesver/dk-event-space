@@ -24,13 +24,15 @@
                         </div>
                     </li>
                     <li class="nav-item"><div class="dropdown-divider"></div></li>
-
+					<?php if($users_profile->designation == 0){ ?>
+					
                     <li class="nav-item">
                         <a class="nav-link" href="dashboard.php">
                             <i class="mdi mdi-home mr-3" style="color:#242424;"></i>
                             Dashboard <span class="sr-only">(current)</span>
                         </a>
                     </li>
+					<?php } ?>
                     
                     <!--<li class="nav-item">
                         <a class="nav-link" href="blog_events.php">
