@@ -3,7 +3,7 @@
 
 <head>
    <meta charset="utf-8">
-   <title>QACA HOUSE</title>
+   <title>{{ config('app.name', 'Laravel') }}</title>
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -328,8 +328,6 @@
                      <div class="rr-footer-widget footer-cols-1">
                         <div class="rr-footer-logo pb-20">
                            <a href="{{ url('/') }}"><img src="{{ asset('assets/img/logo/logo.png') }}" alt="img" style="max-width:45%; max-width: 60%;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10%;
   padding:10px;"></a>
                         </div>
                         <div class="rr-footer-widget-content mb-25">
