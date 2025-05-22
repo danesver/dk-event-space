@@ -18,7 +18,6 @@ class Users extends DB_Object
         'date_created'
     );
 
-    public $id;
     public $firstname;
     public $lastname;
     public $gender;
