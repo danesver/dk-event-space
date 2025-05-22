@@ -776,6 +776,12 @@ $jq('#special_requests').select2();
 		  
 		  document.getElementById('saveBtn').style.display = 'inline-block';
 }
+
+document.getElementById('saveBtn').addEventListener('click', function(event) {
+  if (!confirm('Are you sure you want to save?')) {
+    event.preventDefault();
+  }
+});
 </script>
 </body>
 </html>
