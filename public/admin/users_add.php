@@ -1,5 +1,7 @@
 <?php include 'include/init.php'; ?>
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 
     if (!isset($_SESSION['id'])) { redirect_to("../"); }
@@ -53,30 +55,26 @@
             $users->designation = $designation;
             $users->set_file($_FILES['profile_picture']);
             $users->date_created = date("F j, Y, g:i a"); 
-            try {
-    $result = $users->save(); // Call once and store result
+            
+			try {
+				$result = $users->save();
 
-    if ($result) {
-        echo "User saved successfully.";
-    } else {
-        echo "Failed to save user.<br>";
-        
-        // Show DB error (if using mysqli and $db is global)
-        global $db;
-        if (isset($db->error)) {
-            echo "DB Error: " . $db->error . "<br>";
-        }
+				if ($result) {
+					echo "User saved successfully.";
+				} else {
+					echo "Failed to save user.<br>";
+					if (!empty($users->errors)) {
+						foreach ($users->errors as $error) {
+							echo $error . "<br>";
+						}
+					}
+				}
+			} catch (\Exception $e) {
+				echo "Exception: " . $e->getMessage();
+			}
+			echo "Last SQL: " . $users->last_query;
 
-        // Optional: log or show SQL query if you store it
-        if (isset($users->last_query)) {
-            echo "SQL: " . $users->last_query . "<br>";
-        }
-    }
-} catch (\Exception $e) {
-    echo "Exception: " . $e->getMessage();
-}
 exit;
-
             redirect_to("users.php");
             $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">

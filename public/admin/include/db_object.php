@@ -217,14 +217,13 @@ class DB_Object
 		$sql = "INSERT INTO " . static::$db_table . " (" . implode(",", array_keys($properties)) . ") ";
 		$sql .= "VALUES ('" . implode("','", array_map([$db, 'escape_string'], array_values($properties))) . "')";
 
+		$this->last_query = $sql; // helpful for debugging
+
 		if ($db->query($sql)) {
 			$this->id = $db->the_insert_id();
 			return true;
 		} else {
-			// Log or output the actual error
-			echo ("Database error: " . $db->error);
-			echo ("SQL: " . $sql); // optional, shows the full query
-			exit;
+			$this->errors[] = "DB Error: " . $db->error;
 			return false;
 		}
 	}
