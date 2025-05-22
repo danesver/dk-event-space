@@ -7,25 +7,7 @@
 
     <!-- Include Select2 JS (stable version 4.0.13) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-    <style>
-        select.form-control:not([size]):not([multiple]) {
-            height: calc(2rem) !important;
-        }
-         #payment_section,
-        #attachment_section,
-        #remaining_amount_section {
-            display: none;
-        }
-    </style>
-	<style>
-    input[disabled], textarea[disabled], select[disabled] {
-      background-color: #f0f0f0;
-      cursor: not-allowed;
-    }
-	#saveBtn {
-      display: none; /* Hidden initially */
-    }
-  </style>
+  
 <?php
     if (!isset($_SESSION['id'])) { redirect_to("../"); }
 
@@ -375,6 +357,40 @@
                 font-size: 12px;
             }
         </style>
+		
+		  <style>
+				select.form-control:not([size]):not([multiple]) {
+					height: calc(2rem) !important;
+				}
+				 #payment_section,
+				#attachment_section,
+				#remaining_amount_section {
+					display: none;
+				}
+			</style>
+			<style>
+			input[disabled], textarea[disabled], select[disabled] {
+			  background-color: #f0f0f0;
+			  cursor: not-allowed;
+			}
+			#saveBtn {
+			  display: none; /* Hidden initially */
+			}
+			
+			input[readonly], textarea[readonly] {
+				  background-color: #f0f0f0;
+				  cursor: not-allowed;
+				}
+
+				select:disabled {
+				  background-color: #f0f0f0;
+				  cursor: not-allowed;
+				}
+
+				#saveBtn {
+				  display: none;
+				}
+		  </style>
     </head>
 
 <body>
