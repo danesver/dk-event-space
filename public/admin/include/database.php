@@ -63,6 +63,12 @@ class Database
         $result = mysqli_query($this->connection, $this->sql_string);
         return $result;
     }
+	
+	public function get_error()
+	{
+		return mysqli_error($this->connection);
+	}
+
 }
 
 $db = new Database();
