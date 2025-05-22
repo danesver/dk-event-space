@@ -54,16 +54,29 @@
             $users->set_file($_FILES['profile_picture']);
             $users->date_created = date("F j, Y, g:i a"); 
             try {
-				if ($users->save()) {
-					echo "User saved successfully." . $users->save();
-				} else {
-					echo "Failed to save user.". $users->save();
-				}
-			} catch (\Exception $e) {
-				// Something went wrong (DB error, validation issue, etc.)
-				echo "Error: " . $e->getMessage();
-			}
-			exit;
+    $result = $users->save(); // Call once and store result
+
+    if ($result) {
+        echo "User saved successfully.";
+    } else {
+        echo "Failed to save user.<br>";
+        
+        // Show DB error (if using mysqli and $db is global)
+        global $db;
+        if (isset($db->error)) {
+            echo "DB Error: " . $db->error . "<br>";
+        }
+
+        // Optional: log or show SQL query if you store it
+        if (isset($users->last_query)) {
+            echo "SQL: " . $users->last_query . "<br>";
+        }
+    }
+} catch (\Exception $e) {
+    echo "Exception: " . $e->getMessage();
+}
+exit;
+
             redirect_to("users.php");
             $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
