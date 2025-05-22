@@ -91,12 +91,21 @@ class DB_Object
 
     public function save() {
         try {
-			return isset($this->id) ? $this->update() : $this->create();
+			$result = isset($this->id) ? $this->update() : $this->create();
+
+			if (!$result) {
+				// Log details if save failed but didn't throw an exception
+				echo ("Save failed: " . print_r($this, true));
+				exit;
+			}
+
+			return $result;
 		} catch (\Exception $e) {
-			echo "Error saving record: " . $e->getMessage();
+			echo ("Exception in save(): " . $e->getMessage());
+			throw $e; // rethrow to be caught by outer try-catch
 			exit;
-			return false;
 		}
+
     }
 
     public function save_booking() {
@@ -202,18 +211,23 @@ class DB_Object
     }
 
     public function create() {
-        global $db;
-        $properties = $this->clean_properties();
-        $sql = "INSERT INTO " . static::$db_table . "(" . implode(",", array_keys($properties)) . ") ";
-        $sql .= "VALUES ('" . implode("','", array_values($properties)) . "')";
+		global $db;
+		$properties = $this->clean_properties();
 
-        if($db->query($sql)) {
-            $this->id = $db->the_insert_id();
-            return true;
-        } else {
-            return false;
-        }
-    }
+		$sql = "INSERT INTO " . static::$db_table . " (" . implode(",", array_keys($properties)) . ") ";
+		$sql .= "VALUES ('" . implode("','", array_map([$db, 'escape_string'], array_values($properties))) . "')";
+
+		if ($db->query($sql)) {
+			$this->id = $db->the_insert_id();
+			return true;
+		} else {
+			// Log or output the actual error
+			echo ("Database error: " . $db->error);
+			echo ("SQL: " . $sql); // optional, shows the full query
+			exit;
+			return false;
+		}
+	}
 
     public function update_feature($id) {
         global $db;
