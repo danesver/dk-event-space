@@ -378,7 +378,7 @@
 
             <div class="col-lg-8 offset-2 pl-3 pb-3 box-shadow mt-4">
 
-                <form method="post" action="" enctype="multipart/form-data">
+                <form method="post" action="" enctype="multipart/form-data" id="userForm">
 
                     <h4 class="h4 mt-4 pb-2" style="border-bottom: 1px solid #dee2e6!important;">Client Information
 						<a href="client.php" class="btn btn-sm btn-light float-right mr-2 active" style="font-size: 12px;">
@@ -645,7 +645,7 @@
                     </div><!-- end of form-row -->
 
                    
-                    <button type="submit" name="visit" class="btn btn-sm btn-secondary float-right mr-2 mt-2" style="font-size: 12px; background:green" value="">
+                    <button type="submit" id="toggleBtn" name="visit" class="btn btn-sm btn-secondary float-right mr-2 mt-2" style="font-size: 12px; background:green" value="">
                     	<i class="mdi mdi-check mr-2"></i> Save
 					</button>
 					<!--<button type="submit" name="confirm" class="btn btn-sm btn-primary float-right mr-2" style="font-size: 12px;">
@@ -734,6 +734,31 @@ $jq('#special_requests').select2();
         document.getElementById('wedding_status').addEventListener('change', toggleFields);
         document.getElementById('payment').addEventListener('change', toggleFields);
     });
+</script>
+
+<script>
+  class FormToggler {
+    constructor(formId, buttonId) {
+      this.form = document.getElementById(formId);
+      this.button = document.getElementById(buttonId);
+      this.isEditable = false;
+
+      this.button.addEventListener('click', () => this.toggle());
+    }
+
+    toggle() {
+      this.isEditable = !this.isEditable;
+      const elements = this.form.querySelectorAll('input, select, textarea');
+      elements.forEach(el => {
+        el.disabled = !this.isEditable;
+      });
+
+      this.button.textContent = this.isEditable ? 'Save' : 'Edit';
+    }
+  }
+
+  // Initialize the toggler
+  new FormToggler('userForm', 'toggleBtn');
 </script>
 </body>
 </html>

@@ -7,7 +7,12 @@
 
      if($logged) {
          $session->login($logged);
-         redirect_to("dashboard.php");
+		 if($_SESSION['designation']==0){
+			 redirect_to("dashboard.php");
+		 }else{
+			 redirect_to("client.php");
+		 }
+         
      } else {
          redirect_to("login.php");
          $session->message("
