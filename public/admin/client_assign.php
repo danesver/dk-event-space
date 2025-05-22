@@ -764,7 +764,11 @@ $jq('#special_requests').select2();
 </script>
 
 <script>
-
+	
+	let form = document.getElementById('userForm'); // or use querySelector
+	form.querySelectorAll('input, select, textarea, radio,checkbox').forEach(function(el) {
+	  el.disabled = true;
+	});	
   function enableEdit() {
 		  const form = document.getElementById('userForm');
 		  const elements = form.querySelectorAll('input, textarea, select');
