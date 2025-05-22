@@ -17,6 +17,15 @@
             display: none;
         }
     </style>
+	<style>
+    input[disabled], textarea[disabled], select[disabled] {
+      background-color: #f0f0f0;
+      cursor: not-allowed;
+    }
+	#saveBtn {
+      display: none; /* Hidden initially */
+    }
+  </style>
 <?php
     if (!isset($_SESSION['id'])) { redirect_to("../"); }
 
@@ -644,10 +653,12 @@
                         
                     </div><!-- end of form-row -->
 
-                   
-                    <button type="submit" id="toggleBtn" name="visit" class="btn btn-sm btn-secondary float-right mr-2 mt-2" style="font-size: 12px; background:green" value="">
+                   <button type="button"  class="btn btn-sm btn-primary float-right mr-2" style="font-size: 12px;" onclick="enableEdit()">Edit</button>
+  
+                    <button type="submit" id="saveBtn" name="visit" class="btn btn-sm btn-secondary float-right mr-2 mt-2" style="font-size: 12px; background:green" value="">
                     	<i class="mdi mdi-check mr-2"></i> Save
 					</button>
+					
 					<!--<button type="submit" name="confirm" class="btn btn-sm btn-primary float-right mr-2" style="font-size: 12px;">
                     	<i class="mdi mdi-check mr-2"></i> Confirm Booking
                     </button>
@@ -759,6 +770,15 @@ $jq('#special_requests').select2();
 
   // Initialize the toggler
   new FormToggler('userForm', 'toggleBtn');
+  
+  
+  function enableEdit() {
+		  const form = document.getElementById('myForm');
+		  const elements = form.querySelectorAll('input, textarea, select');
+		  elements.forEach(el => el.removeAttribute('disabled'));
+		  
+		  document.getElementById('saveBtn').style.display = 'inline-block';
+}
 </script>
 </body>
 </html>
