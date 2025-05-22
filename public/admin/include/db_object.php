@@ -90,7 +90,13 @@ class DB_Object
     }
 
     public function save() {
-        return isset($this->id) ? $this->update() : $this->create();
+        try {
+			return isset($this->id) ? $this->update() : $this->create();
+		} catch (\Exception $e) {
+			echo "Error saving record: " . $e->getMessage();
+			exit;
+			return false;
+		}
     }
 
     public function save_booking() {
