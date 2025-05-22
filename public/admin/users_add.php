@@ -53,7 +53,17 @@
             $users->designation = $designation;
             $users->set_file($_FILES['profile_picture']);
             $users->date_created = date("F j, Y, g:i a"); 
-            $users->save();
+            try {
+				if ($users->save()) {
+					echo "User saved successfully." . $users->save();
+				} else {
+					echo "Failed to save user.". $users->save();
+				}
+			} catch (\Exception $e) {
+				// Something went wrong (DB error, validation issue, etc.)
+				echo "Error: " . $e->getMessage();
+			}
+			exit;
             redirect_to("users.php");
             $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
