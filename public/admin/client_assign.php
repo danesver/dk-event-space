@@ -653,7 +653,7 @@
                         
                     </div><!-- end of form-row -->
 
-                   <button type="button"  class="btn btn-sm btn-primary float-right mr-2" style="font-size: 12px;" onclick="enableEdit()">Edit</button>
+                   <button type="button"  class="btn btn-sm btn-primary float-right mt-2 mr-2" style="font-size: 12px;" onclick="enableEdit()">Edit</button>
   
                     <button type="submit" id="saveBtn" name="visit" class="btn btn-sm btn-secondary float-right mr-2 mt-2" style="font-size: 12px; background:green" value="">
                     	<i class="mdi mdi-check mr-2"></i> Save
@@ -748,32 +748,9 @@ $jq('#special_requests').select2();
 </script>
 
 <script>
-  class FormToggler {
-    constructor(formId, buttonId) {
-      this.form = document.getElementById(formId);
-      this.button = document.getElementById(buttonId);
-      this.isEditable = false;
 
-      this.button.addEventListener('click', () => this.toggle());
-    }
-
-    toggle() {
-      this.isEditable = !this.isEditable;
-      const elements = this.form.querySelectorAll('input, select, textarea');
-      elements.forEach(el => {
-        el.disabled = !this.isEditable;
-      });
-
-      this.button.textContent = this.isEditable ? 'Save' : 'Edit';
-    }
-  }
-
-  // Initialize the toggler
-  new FormToggler('userForm', 'toggleBtn');
-  
-  
   function enableEdit() {
-		  const form = document.getElementById('myForm');
+		  const form = document.getElementById('userForm');
 		  const elements = form.querySelectorAll('input, textarea, select');
 		  elements.forEach(el => el.removeAttribute('disabled'));
 		  
