@@ -2,6 +2,7 @@
 class Database
 {
     public $connection;
+    private $sql_string;
 
     function __construct()
     {
@@ -11,8 +12,8 @@ class Database
     public function open_connection()
     {
         $this->connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-        if(mysqli_connect_errno()) {
-            die("Database failed to connect" . mysqli_error($this->connection));
+        if (mysqli_connect_errno()) {
+            die("Database failed to connect: " . mysqli_error($this->connection));
         }
     }
 
@@ -24,15 +25,14 @@ class Database
 
     private function confirm_query($result)
     {
-        if(!$result) {
+        if (!$result) {
             die("Query Failed");
         }
     }
 
     public function escape_string($string)
     {
-        $escaped_string = mysqli_real_escape_string($this->connection, $string);
-        return $escaped_string;
+        return mysqli_real_escape_string($this->connection, $string);
     }
 
     public function the_insert_id()
@@ -40,35 +40,44 @@ class Database
         return mysqli_insert_id($this->connection);
     }
 
-    function loadResultList( $key='' ) {
+    function setQuery($sql = '')
+    {
+        $this->sql_string = $sql;
+    }
+
+    function executeQuery()
+    {
+        return mysqli_query($this->connection, $this->sql_string);
+    }
+
+    function loadResultList($key = '')
+    {
         $cur = $this->executeQuery();
 
         $array = array();
-        while ($row = mysqli_fetch_object( $cur )) {
+        while ($row = mysqli_fetch_object($cur)) {
             if ($key) {
                 $array[$row->$key] = $row;
             } else {
                 $array[] = $row;
             }
         }
-        mysqli_free_result( $cur );
+        mysqli_free_result($cur);
         return $array;
     }
 
-    function setQuery($sql='') {
-        $this->sql_string=$sql;
+    public function get_error()
+    {
+        return mysqli_error($this->connection);
     }
 
-    function executeQuery() {
-        $result = mysqli_query($this->connection, $this->sql_string);
-        return $result;
+    public function __get($name)
+    {
+        if ($name === 'error') {
+            return $this->get_error();
+        }
+        return null;
     }
-	
-	public function get_error()
-	{
-		return mysqli_error($this->connection);
-	}
-
 }
 
 $db = new Database();
