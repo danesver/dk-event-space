@@ -223,7 +223,7 @@ class DB_Object
 			$this->id = $db->the_insert_id();
 			return true;
 		} else {
-			$this->errors[] = "DB Error: " . $db->get_error(); // ❗ use the method, not a non-existent property
+			$this->errors[] = "DB Error: " . $db->error;
 			return false;
 		}
 	}

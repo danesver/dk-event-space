@@ -72,9 +72,7 @@ ini_set('display_errors', 1);
 			} catch (\Exception $e) {
 				echo "Exception: " . $e->getMessage();
 			}
-			echo "Last SQL: " . $users->last_query;
-
-exit;
+			
             redirect_to("users.php");
             $session->message("
             <div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">
