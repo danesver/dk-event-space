@@ -79,7 +79,7 @@
                             User Management
                         </a>
                     </li>
-					@endif
+					<?php } ?>
                     <li class="nav-item"><div class="dropdown-divider"></div></li>
                     <li class="nav-item">
                         <a class="nav-link" href="task_all_calendar.php">
