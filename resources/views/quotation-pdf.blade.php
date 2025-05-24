@@ -50,15 +50,17 @@
             justify-content: space-between;
             margin-top: 20px;
         }
-
+		.table-container {
+			padding: 0 50px;
+			margin-top: 380px;
+			margin-bottom: 100px;
+		}
         table {
-            width: auto;
+            width: 100%;
+			border-collapse: collapse;
+			page-break-inside: auto;
+
             border-collapse: collapse;
-            margin-top: 380px;
-            margin-bottom: 100px;
-            page-break-inside: auto;
-			margin-left:50px; /* Top, Right, Bottom, Left */
-			margin-right:50px;
         }
 
         th, td {
@@ -131,26 +133,29 @@
     </div>
 
     <!-- Main Content -->
-    <table>
-        <thead>
-            <tr>
-                <th>NO</th>
-                <th>DESCRIPTION</th>
-                <th>PRICE (RM)</th>
-                <th>TOTAL (RM)</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach($items as $index => $item)
-            <tr>
-                <td>{{ $index + 1 }}</td>
-                <td>{{ $item->quotation_text ?? 'N/A' }}</td>
-                <td>{{ number_format($item->quotation_amount, 2) }}</td>
-                <td>{{ number_format($item->quotation_amount * ($item->quantity ?? 1), 2) }}</td>
-            </tr>
-            @endforeach
-        </tbody>
-    </table>
+	<div class="table-container">
+		<table>
+			<thead>
+				<tr>
+					<th>NO</th>
+					<th>DESCRIPTION</th>
+					<th>PRICE (RM)</th>
+					<th>TOTAL (RM)</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach($items as $index => $item)
+				<tr>
+					<td>{{ $index + 1 }}</td>
+					<td>{{ $item->quotation_text ?? 'N/A' }}</td>
+					<td>{{ number_format($item->quotation_amount, 2) }}</td>
+					<td>{{ number_format($item->quotation_amount * ($item->quantity ?? 1), 2) }}</td>
+				</tr>
+				@endforeach
+			</tbody>
+		</table>
+	</div>
+    
         <div class="page-break"></div>
 
 
