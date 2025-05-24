@@ -446,15 +446,15 @@
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
                                     <a href="{{ asset('assets/img/gallery/IMG_2026.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2026.jpg') }}" alt="image not found">
+                                       <img src="{{ asset('assets/img/gallery/IMG_2026.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2025.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2025.jpg') }}" alt="image not found">
+                                    <a href="{{ asset('assets/img/gallery/IMG_2029.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/IMG_2029.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
@@ -462,7 +462,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
                                     <a href="{{ asset('assets/img/gallery/IMG_2024.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2024.jpg') }}" alt="image not found">
+                                       <img src="{{ asset('assets/img/gallery/IMG_2024.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
@@ -470,7 +470,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
                                     <a href="{{ asset('assets/img/gallery/IMG_2023jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2023.jpg') }}" alt="image not found">
+                                       <img src="{{ asset('assets/img/gallery/IMG_2023.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
@@ -478,7 +478,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
                                     <a href="{{ asset('assets/img/gallery/IMG_2022.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2022.jpg') }}" alt="image not found">
+                                       <img src="{{ asset('assets/img/gallery/IMG_2022.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
@@ -486,7 +486,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
                                     <a href="{{ asset('assets/img/gallery/IMG_2021.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2021.jpg') }}" alt="image not found"><span><i
+                                       <img src="{{ asset('assets/img/gallery/IMG_2021.jpg') }}" alt="image not found" style="width: 100px;height: 90px;"><span><i
                                              class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
