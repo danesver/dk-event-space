@@ -19,7 +19,7 @@
             top: 0px;
             left: 0;
             right: 0;
-            height: 300px;
+            height: 350px;
             padding: 0 50px;
         }
 
@@ -52,11 +52,13 @@
         }
 
         table {
-            width: 100%;
+            width: auto;
             border-collapse: collapse;
             margin-top: 380px;
             margin-bottom: 100px;
             page-break-inside: auto;
+			margin-left:50px; /* Top, Right, Bottom, Left */
+			margin-right:50px;
         }
 
         th, td {
