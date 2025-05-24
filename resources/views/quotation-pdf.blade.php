@@ -19,7 +19,7 @@
             top: 0px;
             left: 0;
             right: 0;
-            height: 200px;
+            height: 300px;
             padding: 0 50px;
         }
 
@@ -54,8 +54,6 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-left: 50px;
-            margin-right: 50px;
             margin-top: 380px;
             margin-bottom: 100px;
             page-break-inside: auto;
