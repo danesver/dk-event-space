@@ -198,7 +198,7 @@
 </section>
 <!-- service-3 area end -->
 <!-- project-slider area start -->
-<!--<section class="rr-project-slider-area rr-project-slider-bg p-relative fix pt-120">-->
+<!--<section class="rr-project-slider-area rr-project-slider-bg p-relative fix pt-120">
    <div class="container-fluid">
       <div class="row gx-30">
          <div class="col-lg-12">
@@ -270,7 +270,7 @@
          </div>
       </div>
    </div>
-</section>
+</section>-->
 <!-- project-slider area end -->
 <!-- rr-testimonial-single-single area start -->
 <div class="rr-testimonial-single-area gray-bg fix">
