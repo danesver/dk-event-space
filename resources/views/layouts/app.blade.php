@@ -506,7 +506,8 @@
                <div class="row align-items-center">
                   <div class="col-xl-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                      <div class="rr-copyright-left text-center">
-                        <p>© 2024 theqacahouse Design By Eastlogics. All Rights Reserved.</p>
+                        <p>© 2025 TheQacaHouse Design By <a href="https://techydk.com" target="_blank" rel="noopener">TechyDK</a>. All Rights Reserved.</p>
+
                      </div>
                   </div>
                </div>
