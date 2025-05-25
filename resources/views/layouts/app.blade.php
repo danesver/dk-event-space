@@ -144,10 +144,8 @@
          </div>
          <div class="rroffcanvas__social">
             <div class="social-icon">
-               <a href="#"><i class="fab fa-twitter"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-pinterest-p"></i></a>
+               <a target="_blank" href="https://www.instagram.com/theqacahouse"><i class="fab fa-instagram"></i></a>
+               
             </div>
          </div>
       </div>
@@ -180,22 +178,7 @@
                   <div class="rr-header-2-top-info d-flex align-items-center justify-content-end text-end">
                      <div class="rr-header-main-social d-flex align-items-center">
                         <div class="rr-header-social ml-20">
-                           <a href="https://www.instagram.com/theqacahouse"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65275 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z"
-                                    stroke="#051145" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                           <a href="https://www.instagram.com/theqacahouse"><svg width="20" height="18" viewBox="0 0 20 18" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z"
-                                    stroke="#051145" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-                           </a>
+                           
                            <!--<a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                  <path
@@ -210,7 +193,7 @@
                                     stroke-linejoin="round" />
                               </svg>
                            </a>-->
-                           <a href="https://www.instagram.com/theqacahouse"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                           <a  target="_blank" href="https://www.instagram.com/theqacahouse"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                  <path
                                     d="M13 1H5C2.79086 1 1 2.79086 1 5V13C1 15.2091 2.79086 17 5 17H13C15.2091 17 17 15.2091 17 13V5C17 2.79086 15.2091 1 13 1Z"
@@ -445,48 +428,48 @@
                            <div class="row gx-5">
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2026.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2026.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
+                                    <a href="{{ asset('assets/img/gallery/4.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/4.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2029.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2029.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
+                                    <a href="{{ asset('assets/img/gallery/1.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/1.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2024.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2024.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
+                                    <a href="{{ asset('assets/img/gallery/2.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/2.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2023jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2023.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
+                                    <a href="{{ asset('assets/img/gallery/3.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/3.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2022.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2022.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
+                                    <a href="{{ asset('assets/img/gallery/5.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/5.jpg') }}" alt="image not found" style="width: 100px;height: 90px;">
                                        <span><i class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
                               </div>
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
                                  <div class="rr-footer__widget-gallery p-relative">
-                                    <a href="{{ asset('assets/img/gallery/IMG_2021.jpg') }}" class="our-gallery__item popup-image">
-                                       <img src="{{ asset('assets/img/gallery/IMG_2021.jpg') }}" alt="image not found" style="width: 100px;height: 90px;"><span><i
+                                    <a href="{{ asset('assets/img/gallery/6.jpg') }}" class="our-gallery__item popup-image">
+                                       <img src="{{ asset('assets/img/gallery/6.jpg') }}" alt="image not found" style="width: 100px;height: 90px;"><span><i
                                              class="fa-solid fa-plus"></i></span>
                                     </a>
                                  </div>
