@@ -3,7 +3,7 @@
 
 <head>
    <meta charset="utf-8">
-   <title>{{ config('app.name', 'Laravel') }}</title>
+   <title>QACA HOUSE</title>
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -489,7 +489,8 @@
                <div class="row align-items-center">
                   <div class="col-xl-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                      <div class="rr-copyright-left text-center">
-                        <p>© 2024 theqacahouse Design By Eastlogics. All Rights Reserved.</p>
+                        <p>© 2025 TheQacaHouse. All Rights Reserved.</p>
+
                      </div>
                   </div>
                </div>
