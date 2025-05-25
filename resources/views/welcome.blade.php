@@ -85,7 +85,7 @@
                   data-wow-delay=".5s">
                   <div class="rr-about-thumb rr-about-img d-flex align-items-center justify-content-center"
                      data-background="assets/img/about/img.png">
-                     <!--<img src="assets/img/about/shape.png" alt="">-->
+                     <img src="assets/img/about/img.png" alt="">
                   </div>
                </div>
                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
@@ -102,7 +102,7 @@
                   data-wow-delay=".9s">
                   <div class="rr-about-thumb rr-about-img d-flex align-items-center justify-content-center"
                      data-background="assets/img/about/img-2.png">
-                     <!--<img src="assets/img/about/shape.png" alt="">-->
+                     <img src="assets/img/about/img-2.png" alt="">
                   </div>
                </div>
             </div>

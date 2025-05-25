@@ -193,6 +193,22 @@
                                     stroke-linejoin="round" />
                               </svg>
                            </a>-->
+						   <a href="https://www.instagram.com/theqacahouse"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65275 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z"
+                                    stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                           <a href="https://www.instagram.com/theqacahouse"><svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z"
+                                    stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+                           </a>
                            <a  target="_blank" href="https://www.instagram.com/theqacahouse"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                  <path
@@ -318,7 +334,22 @@
                         </div>
                         <div class="rr-footer-social d-flex align-items-center">
                            <span>Follow Us :</span>
-                           
+                           <a  target="_blank" href="https://www.instagram.com/theqacahouse"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65274 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z"
+                                    stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                           <a target="_blank" href="https://www.instagram.com/theqacahouse"><svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z"
+                                    stroke="#040404" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+                           </a>
                            <a target="_blank" href="https://www.instagram.com/theqacahouse"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                  <path

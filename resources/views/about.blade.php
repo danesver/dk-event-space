@@ -32,11 +32,11 @@
 </section>
 <!-- about-3 03 area end -->
 <!-- fact area start -->
-<div class="rr-funfact-2-area p-relative fix">
+<!--<div class="rr-funfact-2-area p-relative fix">
    <div class="container">
       <div class="rr-funfact-2">
          <div class="row gx-30">
-            <!--<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp mb-30" data-wow-duration=".9s"
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp mb-30" data-wow-duration=".9s"
                data-wow-delay=".3s">
                <div class="rr-funfact-2-content text-center fix p-relative">
                   <div class="rr-funfact-2-number d-flex align-items-center justify-content-center">
@@ -55,7 +55,7 @@
                      </div>
                   </div>
                </div>
-            </div>-->
+            </div>
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp mb-30" data-wow-duration=".9s"
                data-wow-delay=".5s">
                <div class="rr-funfact-2-content text-center fix p-relative">
@@ -119,7 +119,7 @@
          </div>
       </div>
    </div>
-</div>
+</div>-->
 <!-- fact area end -->
 <!-- service-3 area start -->
 <section class="rr-service-3-area pt-120 fix">
