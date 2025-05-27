@@ -43,8 +43,7 @@
                                           class="fa-sharp fa-regular fa-play"></i></a></span>
                               </div>
                               <div class="rr-hero-banner-text">
-                                 <b><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ">Watch
-                                       Video</a></b>
+                                 <b><iframe width="560" height="315" src="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></b>
                               </div>
                            </div>
                         </div>
