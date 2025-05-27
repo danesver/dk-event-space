@@ -43,8 +43,7 @@
                                           class="fa-sharp fa-regular fa-play"></i></a></span>
                               </div>
                               <div class="rr-hero-banner-text">
-                                 <b><a class="popup-video" src="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ">Watch
-                                       Video</a></b>
+                                 <b><a href="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ" class="popup-video">Watch Video</a></b>
                               </div>
                            </div>
                         </div>
