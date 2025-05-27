@@ -39,11 +39,11 @@
                            <div class="rr-hero-banner-play d-flex align-items-center wow rrfadeUp"
                               data-wow-duration=".9s" data-wow-delay=".9s">
                               <div class="rr-hero-banner-play z-index-2">
-                                 <span><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=3kzwpPPF8BkDCnpR"><i
+                                 <span><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ"><i
                                           class="fa-sharp fa-regular fa-play"></i></a></span>
                               </div>
                               <div class="rr-hero-banner-text">
-                                 <b><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=3kzwpPPF8BkDCnpR">Watch
+                                 <b><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ">Watch
                                        Video</a></b>
                               </div>
                            </div>
@@ -316,7 +316,7 @@
                <div class="col-xl-12">
                   <div class="rr-video-wrap">
                      <div class="rr-video-play">
-                        <span><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=3kzwpPPF8BkDCnpR"><svg width="17"
+                        <span><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s?si=CwjDJas0Gbd-9FEQ"><svg width="17"
                                  height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                  <path d="M1 1L16 11L1 21V11V1Z" stroke="#1B7262" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" />
