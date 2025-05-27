@@ -44,6 +44,7 @@
                               </div>
                               <div class="rr-hero-banner-text">
                                  <b><a href="https://www.youtube.com/watch?v=2IaEAzDgX3s&t=2s" class="popup-video">Watch Video</a></b>
+                                  <iframe width="50" height="315" src="https://www.youtube.com/embed/2IaEAzDgX3s?si=30WkfvM68WOqGVDL"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                               </div>
                            </div>
                         </div>
