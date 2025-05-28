@@ -315,12 +315,9 @@
                <div class="col-xl-12">
                   <div class="rr-video-wrap">
                      <div class="rr-video-play">
-                        <span><a class="popup-video" href="https://www.youtube.com/embed/0EsUUeW6V-8?si=IxjB1jkaXYW6go0D">
-                           <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 1L16 11L1 21V11V1Z" stroke="#1B7262" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                           </a></span>
+                        <span>
+                           <iframe width="50" height="315" src="https://www.youtube.com/embed/2IaEAzDgX3s?si=30WkfvM68WOqGVDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </span>
                      </div>
                   </div>
                </div>
