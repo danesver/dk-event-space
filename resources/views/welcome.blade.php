@@ -315,7 +315,7 @@
                <div class="col-xl-12">
                   <div class="rr-video-wrap">
                      <div class="rr-video-play">
-                        <span><a class="popup-video" href="https://youtu.be/2IaEAzDgX3s?si=ea9Czq4QWVdqeX6T">
+                        <span><a class="popup-video" href="https://www.youtube.com/embed/2IaEAzDgX3s">
                            <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M1 1L16 11L1 21V11V1Z" stroke="#1B7262" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" />
