@@ -309,21 +309,7 @@
       </section>
       <!-- shop area end -->
       <!-- video area start -->
-      <section class="rr-video-main p-relative fix" data-background="assets/img/video/bg-image.jpg">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-12">
-                  <div class="rr-video-wrap">
-                     <div class="rr-video-play">
-                        <span>
-                           <iframe width="50" height="315" src="https://www.youtube.com/embed/2IaEAzDgX3s?si=30WkfvM68WOqGVDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+      <iframe width="100%" height="500px" src="https://www.youtube.com/embed/2IaEAzDgX3s?si=30WkfvM68WOqGVDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
       <!-- video area end -->
       <!-- team area start -->
       <!--<section class="rr-team-area pt-120 pb-70 fix">
