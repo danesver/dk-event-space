@@ -425,7 +425,7 @@
                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50 wow rrfadeUp" data-wow-duration=".9s"
                      data-wow-delay=".7s">
                      <div class="rr-footer-widget footer-cols-3">
-                        <h4 class="rr-footer-title">Instagram</h4>
+                        <h4 class="rr-footer-title">Gallery</h4>
                         <div class="rr-footer__widget-gallery-wrap">
                            <div class="row gx-5">
                               <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">

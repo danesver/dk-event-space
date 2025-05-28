@@ -39,12 +39,11 @@
                            <div class="rr-hero-banner-play d-flex align-items-center wow rrfadeUp"
                               data-wow-duration=".9s" data-wow-delay=".9s">
                               <div class="rr-hero-banner-play z-index-2">
-                                 <span><a class="popup-video" href="https://www.youtube.com/watch?v=BevD2sTa5Ds"><i
+                                 <span><a class="popup-video" href="https://www.youtube.com/watch?v=2IaEAzDgX3s&t=2s"><i
                                           class="fa-sharp fa-regular fa-play"></i></a></span>
                               </div>
                               <div class="rr-hero-banner-text">
-                                 <b><a class="popup-video" href="https://www.youtube.com/watch?v=BevD2sTa5Ds">Watch
-                                       Video</a></b>
+                                 <b><a src="https://www.youtube.com/embed/2IaEAzDgX3s?si=30WkfvM68WOqGVDL"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="popup-video">Watch Video</a></b>
                               </div>
                            </div>
                         </div>
