@@ -977,7 +977,7 @@
       <!-- testimonial area end -->
       <!-- cta area start -->
       <section class="rr-cta-area pt-125 pb-120 p-relative rr-cta-before-color fix"
-         data-background="assets/img/cta/cta-bg.jpg">
+         data-background="assets/img/video/bg-image.jpg">
          <div class="rr-cta-bg-img">
          </div>
          <div class="container">
