@@ -268,7 +268,7 @@
                                     <a  href="{{ route('my-events') }}">My Events</a>
                                 </li>
                                 
-                                 <li class="d-block d-md-none"">
+                                 <li class="d-block d-md-none">
                                     <a  href="{{ route('book-appointment') }}">Book Now</a>
                                 </li>
                            <li>

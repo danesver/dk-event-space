@@ -93,6 +93,50 @@
             </div>
          </div>
       </section>
+
+      <!-- instagrem area start -->
+      <section class="rr-instagrem-area fix">
+         <div class="container-fluid gx-0">
+            <div class="swiper-container rr-instagram-active gx-0">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="rr-instagrem-widget-gallery p-relative">
+                        <a href="assets/img/gallery/img-7.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/img-7.jpg" alt="image not found">
+                           <span><i class="fa-solid fa-plus"></i></span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="rr-instagrem-widget-gallery p-relative">
+                        <a href="assets/img/gallery/img-8.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/img-8.jpg" alt="image not found">
+                           <span><i class="fa-solid fa-plus"></i></span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="rr-instagrem-widget-gallery p-relative">
+                        <a href="assets/img/gallery/img-9.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/img-9.jpg" alt="image not found">
+                           <span><i class="fa-solid fa-plus"></i></span>
+                        </a>
+                     </div>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                     <div class="rr-instagrem-widget-gallery p-relative">
+                        <a href="assets/img/gallery/img-10.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/img-10.jpg" alt="image not found">
+                           <span><i class="fa-solid fa-plus"></i></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- instagrem area end -->
       <!-- about area end -->
       <!--<div class="rr-funfact-area pt-60 pb-100 p-relative fix">
          <div class="container">
@@ -912,7 +956,27 @@
          </div>
       </section>-->
       <!-- testimonial area end -->
-
+      <!-- cta area start -->
+      <section class="rr-cta-area pt-125 pb-120 p-relative rr-cta-before-color fix"
+         data-background="assets/img/cta/cta-bg.jpg">
+         <div class="rr-cta-bg-img">
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="rr-cta-info text-center">
+                     <h3 class="rr-cta-title-2 mb-40 wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".3s">Book
+                        Us For Your Special Day</h3>
+                     <div class="rr-cta-btn wow rrfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <a class="rr-btn-white " href="{{ route('book-appointment') }}"><span>Book Now </span><i
+                              class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- cta area end -->
      
       <!-- contact map start -->
       <section class="rr-map-area">
