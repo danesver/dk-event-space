@@ -338,7 +338,7 @@
       </section>
       <!-- Appointment area end -->
       <!-- rr-testimonial-single-single area start -->
-      <div class="rr-testimonial-single-area gray-bg fix pt-120">
+      <!--<div class="rr-testimonial-single-area gray-bg fix pt-120">
          <div class="container p-relative">
             <div class="row gx-30">
                <div class="col-lg-12">
@@ -390,7 +390,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div>-->
       <!-- rr-testimonial-single-single area end -->
      <!-- brand area end -->
     <!-- <section class="rr-brand-area pb-120 fix">
