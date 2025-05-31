@@ -382,7 +382,7 @@
                   </div>
                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50 wow rrfadeUp" data-wow-duration=".9s"
                      data-wow-delay=".3s">
-                     <div class="rr-footer-widget footer-cols-1 contact-section">
+                     <div id="contact-section-link" class="rr-footer-widget footer-cols-1 contact-section">
                         <h4 class="rr-footer-title">Contact</h4>
                         <div class="rr-footer-widget-content mb-25">
                            <p>Would you have any enquiries.Please feel free to contuct us</p>
@@ -533,12 +533,12 @@
    
 
       document.querySelector('a[href="#contact-section-link"]')?.addEventListener('click', function (e) {
-      e.preventDefault(); // Prevent default jump
-      const contactSection = document.querySelector('#contact-section');
-      if (contactSection) {
-         contactSection.scrollIntoView({ behavior: 'smooth' });
-      }
-   });
+         e.preventDefault();
+         const contactSection = document.querySelector('#contact-section-link');
+         if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+         }
+      });
 
   /* var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
    (function(){
