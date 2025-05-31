@@ -101,24 +101,43 @@
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
                      <div class="rr-instagrem-widget-gallery p-relative">
-                        <a href="assets/img/gallery/img-7.jpg" class="rr-instagrem-main-item popup-image">
-                           <img src="assets/img/gallery/img-7.jpg" alt="image not found">
+                        <a href="assets/img/gallery/4.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/4.jpg" alt="image not found">
                            <span><i class="fa-solid fa-plus"></i></span>
                         </a>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="rr-instagrem-widget-gallery p-relative">
-                        <a href="assets/img/gallery/img-8.jpg" class="rr-instagrem-main-item popup-image">
-                           <img src="assets/img/gallery/img-8.jpg" alt="image not found">
+                        <a href="assets/img/gallery/1.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/1.jpg" alt="image not found">
                            <span><i class="fa-solid fa-plus"></i></span>
                         </a>
                      </div>
                   </div>
                   <div class="swiper-slide">
                      <div class="rr-instagrem-widget-gallery p-relative">
-                        <a href="assets/img/gallery/img-9.jpg" class="rr-instagrem-main-item popup-image">
-                           <img src="assets/img/gallery/img-9.jpg" alt="image not found">
+                        <a href="assets/img/gallery/2.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/2.jpg" alt="image not found">
+                           <span><i class="fa-solid fa-plus"></i></span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <div class="rr-instagrem-widget-gallery p-relative">
+                        <a href="assets/img/gallery/5.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/5.jpg" alt="image not found">
+                           <span><i class="fa-solid fa-plus"></i></span>
+                        </a>
+                     </div>
+                  </div>
+
+                  
+                  <div class="swiper-slide">
+                     <div class="rr-instagrem-widget-gallery p-relative">
+                        <a href="assets/img/gallery/6.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/6.jpg" alt="image not found">
                            <span><i class="fa-solid fa-plus"></i></span>
                         </a>
                      </div>
@@ -126,8 +145,8 @@
                   
                   <div class="swiper-slide">
                      <div class="rr-instagrem-widget-gallery p-relative">
-                        <a href="assets/img/gallery/img-10.jpg" class="rr-instagrem-main-item popup-image">
-                           <img src="assets/img/gallery/img-10.jpg" alt="image not found">
+                        <a href="assets/img/gallery/3.jpg" class="rr-instagrem-main-item popup-image">
+                           <img src="assets/img/gallery/3.jpg" alt="image not found">
                            <span><i class="fa-solid fa-plus"></i></span>
                         </a>
                      </div>

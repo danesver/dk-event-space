@@ -253,7 +253,7 @@
                            </li>
                            <li><a href="{{ route('about') }}">About us</a></li>
                            <li><a href="{{ route('services') }}">Service</a></li>
-							<li><a href="#;">Contact</a></li>
+							<li><a href="#contact-section-link">Contact</a></li>
                            @guest
                            <li >
                                 <a  href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -530,29 +530,16 @@
 
    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-   // Find the "Contact" link
-      const contactLink = Array.from(document.querySelectorAll('a')).find(
-      a => a.textContent.trim().toLowerCase() === 'contact'
-      );
+   
 
-      if (contactLink) {
-      contactLink.click(); // simulate click
-
-      // Wait a moment and scroll to the footer section
-      setTimeout(() => {
-         const footerSection = document.querySelector('.contact-section');
-         if (footerSection) {
-            console.error('Footer section found');
-            footerSection.scrollIntoView({
-            behavior: 'smooth'
-            });
-         } else {
-            console.error('Footer section not found');
-         }
-      }, 1000); // adjust timing as needed
-      } else {
-      console.error('Contact link not found');
+      document.querySelector('a[href="#contact-section-link"]')?.addEventListener('click', function (e) {
+      e.preventDefault(); // Prevent default jump
+      const contactSection = document.querySelector('#contact-section');
+      if (contactSection) {
+         contactSection.scrollIntoView({ behavior: 'smooth' });
       }
+   });
+
   /* var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
    (function(){
    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
