@@ -253,7 +253,7 @@
                            </li>
                            <li><a href="{{ route('about') }}">About us</a></li>
                            <li><a href="{{ route('services') }}">Service</a></li>
-                           <!--<li><a href="{{ route('contact') }}">Contact</a></li>-->
+							<li><a href="{{ route('contact') }}">Contact</a></li>
                            @guest
                            <li >
                                 <a  href="{{ route('login') }}">{{ __('Login') }}</a>

@@ -115,8 +115,8 @@
 <!-- contact map start -->
 <section class="rr-map-area">
    <div class="rr-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14600.157880481716!2d90.35107202273903!3d23.81719545680701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c12c1b289e39%3A0x8d3bdfb80d3ebe88!2sRd%20No.%204%2C%20Dhaka%201216!5e0!3m2!1sen!2sbd!4v1701837409513!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d248.97371353528305!2d101.7021875!3d3.2045852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc47f78a5369ad%3A0x61ec6e0fc12dcc13!2sQaca%20House%20Event%20Space!5e0!3m2!1sen!2s!4v1745865823502!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 </section>
 <!-- contact map end -->
 

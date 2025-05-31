@@ -36,16 +36,7 @@
                               <a class="rr-btn" href="{{ route('book-appointment') }}"><span>Book your dream event space </span><i
                                     class="fa-solid fa-arrow-right"></i></a>
                            </div>
-                           <div class="rr-hero-banner-play d-flex align-items-center wow rrfadeUp"
-                              data-wow-duration=".9s" data-wow-delay=".9s">
-                              <div class="rr-hero-banner-play z-index-2">
-                                 <span><a class="popup-video" href="https://www.youtube.com/watch?v=2IaEAzDgX3s&t=2s"><i
-                                          class="fa-sharp fa-regular fa-play"></i></a></span>
-                              </div>
-                              <div class="rr-hero-banner-text">
-                                 <b><a src="https://www.youtube.com/embed/2IaEAzDgX3s?si=30WkfvM68WOqGVDL"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="popup-video">Watch Video</a></b>
-                              </div>
-                           </div>
+                          
                         </div>
                      </div>
                   </div>
@@ -82,10 +73,7 @@
             <div class="row gx-30">
                <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 p-relative wow rrfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".5s">
-                  <div class="rr-about-thumb rr-about-img d-flex align-items-center justify-content-center"
-                     data-background="assets/img/about/img.png">
-                     <img src="assets/img/about/img.png" alt="">
-                  </div>
+                 
                </div>
                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                   <div class="rr-about-main-info text-center">
@@ -99,10 +87,7 @@
                </div>
                <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 p-relative wow rrfadeUp" data-wow-duration=".9s"
                   data-wow-delay=".9s">
-                  <div class="rr-about-thumb rr-about-img d-flex align-items-center justify-content-center"
-                     data-background="assets/img/about/img-2.png">
-                     <img src="assets/img/about/img-2.png" alt="">
-                  </div>
+                  
                </div>
             </div>
          </div>
@@ -186,9 +171,8 @@
                         <img src="assets/img/service/img.jpg" alt="">
                      </div>
                      <div class="rr-service-content">
-                        <h4 class="rr-service-title">Flower Design</h4>
-                        <p>Flower design is important in weddings <br /> became enhances whole mood and beauty to
-                           location.</p>
+                        <h4 class="rr-service-title">Event Deco</h4>
+                        <p>Stunning décor that transforms any venue into a magical celebration.</p>
                         
                      </div>
                   </div>
@@ -200,9 +184,8 @@
                         <img src="assets/img/service/img2.jpg" alt="">
                      </div>
                      <div class="rr-service-content">
-                        <h4 class="rr-service-title">Wedding Co-ordinate</h4>
-                        <p>Flower design is important in weddings <br /> became enhances whole mood and beauty to
-                           location.</p>
+                        <h4 class="rr-service-title">Event Coordinate</h4>
+                        <p>Flawless execution and elegant details come together to bring your event vision to life.</p>
                         
                      </div>
                   </div>
@@ -214,9 +197,8 @@
                         <img src="assets/img/service/img3.jpg" alt="">
                      </div>
                      <div class="rr-service-content">
-                        <h4 class="rr-service-title">Photoshoot</h4>
-                        <p>Flower design is important in weddings <br /> became enhances whole mood and beauty to
-                           location.</p>
+                        <h4 class="rr-service-title">Photoshoot & Videoshoot</h4>
+                        <p>Capture every smile and moment with cinematic style and picture-perfect frames.</p>
                         
                      </div>
                   </div>
@@ -229,8 +211,7 @@
                      </div>
                      <div class="rr-service-content">
                         <h4 class="rr-service-title">Makeup Artist</h4>
-                        <p>Flower design is important in weddings <br /> became enhances whole mood and beauty to
-                           location.</p>
+                        <p>Bringing out your best look with elegance, grace, and a floral touch of glamour.</p>
                         
                      </div>
                   </div>
@@ -242,9 +223,8 @@
                         <img src="assets/img/service/img5.jpg" alt="">
                      </div>
                      <div class="rr-service-content">
-                        <h4 class="rr-service-title">Invitation</h4>
-                        <p>Flower design is important in weddings <br /> became enhances whole mood and beauty to
-                           location.</p>
+                        <h4 class="rr-service-title">Jockey Parking</h4>
+                        <p>Smooth, stylish, and stress-free parking solutions to elevate your guest experience.</p>
                         
                      </div>
                   </div>
@@ -256,9 +236,8 @@
                         <img src="assets/img/service/img6.jpg" alt="">
                      </div>
                      <div class="rr-service-content">
-                        <h4 class="rr-service-title">Best Restaurant</h4>
-                        <p>Flower design is important in weddings <br /> became enhances whole mood and beauty to
-                           location.</p>
+                        <h4 class="rr-service-title">PA System</h4>
+                        <p>Crystal-clear sound that keeps the celebration flowing and the emotions glowing.</p>
                         
                      </div>
                   </div>
