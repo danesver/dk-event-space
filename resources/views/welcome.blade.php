@@ -271,7 +271,7 @@
                   data-wow-delay=".6s">
                   <div class="rr-service-item text-center mb-30">
                      <div class="rr-service-thumb">
-                        <img src="assets/img/service/img4.jpg" alt="">
+                        <img src="assets/img/service/img4.jpg" alt="" width="130px" height="130px">
                      </div>
                      <div class="rr-service-content">
                         <h4 class="rr-service-title">Makeup Artist</h4>
@@ -284,7 +284,7 @@
                   data-wow-delay=".7s">
                   <div class="rr-service-item text-center mb-30">
                      <div class="rr-service-thumb">
-                        <img src="assets/img/service/img5.jpg" alt="">
+                        <img src="assets/img/service/img5.jpg" alt="" width="130px" height="130px">
                      </div>
                      <div class="rr-service-content">
                         <h4 class="rr-service-title">Jockey Parking</h4>
