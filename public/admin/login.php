@@ -7,7 +7,9 @@
 
      if($logged) {
          $session->login($logged);
-		 if($_SESSION['designation']==0){
+		 
+		 $users_profile = Users::find_by_id($logged->id);
+		  if($users_profile->designation == 0){
 			 redirect_to("dashboard.php");
 		 }else{
 			 redirect_to("client.php");
