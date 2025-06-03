@@ -297,7 +297,7 @@
                   data-wow-delay=".8s">
                   <div class="rr-service-item text-center mb-30">
                      <div class="rr-service-thumb">
-                        <img src="assets/img/service/img6.jpg" alt="">
+                        <img src="assets/img/service/img6.jpg" alt="" width="130px" height="130px">
                      </div>
                      <div class="rr-service-content">
                         <h4 class="rr-service-title">PA System</h4>
