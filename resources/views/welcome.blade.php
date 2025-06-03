@@ -55,10 +55,7 @@
                         <div class="rr-hero-border-img wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                            <div class="rr-hero-md d-none d-md-block">
                               <img src="assets/img/hero/banner-md.jpg" alt="">
-                           </div>
-                           <div class="rr-hero-border-full">
-                              <img src="assets/img/hero/img-full.png" alt="">
-                           </div>
+                         
                         </div>
                      </div>
                   </div>
