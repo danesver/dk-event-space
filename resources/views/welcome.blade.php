@@ -42,24 +42,12 @@
                   </div>
                   <div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-12 p-relative">
                      <div class="rr-hero-thumb text-end">
-                        <div class="rr-hero-banner-shap">
-                           <img src="assets/img/hero/camera.png" alt="">
-                        </div>
                         <div class="rr-hero-main-thumb wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                            <img src="assets/img/hero/banner-main.jpg" alt="">
                         </div>
-                        <div class="rr-hero-sm d-none d-xxl-block wow rrfadeRight" data-wow-duration=".9s"
-                           data-wow-delay=".3s">
-                           <img src="assets/img/hero/banner-sm.jpg" alt="">
-                        </div>
+                       
                         <div class="rr-hero-border-img wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                           <div class="rr-hero-md d-none d-md-block">
-                              <img src="assets/img/hero/banner-md.jpg" alt="">
-                           </div>
-                           <div class="rr-hero-border-full">
-                              <img src="assets/img/hero/img-full.png" alt="">
-                           </div>
-                        </div>
+                           
                      </div>
                   </div>
                </div>
@@ -297,7 +285,7 @@
                   data-wow-delay=".8s">
                   <div class="rr-service-item text-center mb-30">
                      <div class="rr-service-thumb">
-                        <img src="assets/img/service/img6.jpg" alt="">
+                        <img src="assets/img/service/img6.jpg" alt="" width="130px" height="130px">
                      </div>
                      <div class="rr-service-content">
                         <h4 class="rr-service-title">PA System</h4>
