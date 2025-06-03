@@ -42,9 +42,6 @@
                   </div>
                   <div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-12 p-relative">
                      <div class="rr-hero-thumb text-end">
-                        <div class="rr-hero-banner-shap">
-                           <img src="assets/img/hero/camera.png" alt="">
-                        </div>
                         <div class="rr-hero-main-thumb wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                            <img src="assets/img/hero/banner-main.jpg" alt="">
                         </div>
