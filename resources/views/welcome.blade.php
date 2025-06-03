@@ -48,15 +48,9 @@
                         <div class="rr-hero-main-thumb wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                            <img src="assets/img/hero/banner-main.jpg" alt="">
                         </div>
-                        <div class="rr-hero-sm d-none d-xxl-block wow rrfadeRight" data-wow-duration=".9s"
-                           data-wow-delay=".3s">
-                           <img src="assets/img/hero/banner-sm.jpg" alt="">
-                        </div>
+                       
                         <div class="rr-hero-border-img wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                           <div class="rr-hero-md d-none d-md-block">
-                              <img src="assets/img/hero/banner-md.jpg" alt="">
-                         
-                        </div>
+                           
                      </div>
                   </div>
                </div>
