@@ -108,7 +108,7 @@
 <?php  include_once 'include/sidebar.php'; ?>
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-      <h5 class="h4 mt-4 ml-3" style="text-align: center;">Wedding Calendar Activities</h5>
+      <h5 class="h4 mt-4 ml-3" style="text-align: center;">Event Calendar Activities</h5>
 </div>
 
 <div class="row">
@@ -233,12 +233,12 @@
                    
 
                   <div class="form-group">
-                     <label for="wedding_type"><b>Envent Date</b></label>
+                     <label for="wedding_type"><b>Event Date</b></label>
                       <input type="text" name="event_date" class="form-control" id="event_date" placeholder="Event Date">
                   </div>
                   
                   <div class="form-group">
-                     <label for="wedding_type"><b>Envent Slot</b></label>
+                     <label for="wedding_type"><b>Event Slot</b></label>
                       <input type="text" name="event_slot" class="form-control" id="event_slot" placeholder="Event Slot">
                   </div>
                     
