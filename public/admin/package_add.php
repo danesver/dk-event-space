@@ -96,11 +96,12 @@
                         <label for="price">Price Of This Package</label>
                         <input type="text" name="price" class="form-control" id="price"  placeholder="Enter the price">
                     </div>
-
+<!--
                     <div class="form-group">
                         <label for="preview_image">Preview Image</label>
                         <input type="file" name="preview_image">
                    </div>
+                    -->
                      <a href="services_list.php" class="btn btn-sm btn-danger float-right" style="font-size: 12px;">Cancel</a>
 
                         <button type="submit" name="submit" class="btn btn-sm btn-success float-right mr-2" style="font-size: 12px;">Save</button>
