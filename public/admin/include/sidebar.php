@@ -1,4 +1,4 @@
-
+ 
 
 <nav class="navbar sticky-top p-0" style="width: 16.7%;background-color: #1B7261;">
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="color:white;" href="dashboard.php">
@@ -55,8 +55,9 @@
                             Services
                         </a>
                     </li>
+            <!--
                     <li class="nav-item"><div class="dropdown-divider"></div></li>
-<!--
+
                     <li class="nav-item">
                         <a class="nav-link" href="photos_view.php">
                             <i class="mdi mdi-image-multiple mr-3" style="color:#673ab7!important"></i>
