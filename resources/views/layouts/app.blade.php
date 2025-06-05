@@ -385,7 +385,7 @@
                      <div id="contact-section-link" class="rr-footer-widget footer-cols-1 contact-section">
                         <h4 class="rr-footer-title">Contact</h4>
                         <div class="rr-footer-widget-content mb-25">
-                           <p>Would you have any enquiries.Please feel free to contuct us</p>
+                           <p>Would you have any enquiries.Please feel free to contact us</p>
                            <div class="rr-footer-widget-content-item">
                               <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">

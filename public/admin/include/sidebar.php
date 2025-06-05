@@ -56,7 +56,7 @@
                         </a>
                     </li>
                     <li class="nav-item"><div class="dropdown-divider"></div></li>
-
+<!--
                     <li class="nav-item">
                         <a class="nav-link" href="photos_view.php">
                             <i class="mdi mdi-image-multiple mr-3" style="color:#673ab7!important"></i>
@@ -71,6 +71,9 @@
                             Upload Photos
                         </a>
                     </li>
+
+
+                    -->
 					<?php if($users_profile->designation == 0){ ?>
                     <li class="nav-item"><div class="dropdown-divider"></div></li>
                     <li class="nav-item">
@@ -91,14 +94,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="quotation.php">
                             <i class="mdi mdi-calendar-text mr-3" style="color: #f44336!important;"></i>
-                             Quotation Setting
+                             Quotation Panel
                         </a>
                     </li>
                     <li class="nav-item"><div class="dropdown-divider"></div></li>
                     <li class="nav-item">
                         <a class="nav-link" href="available.php">
                             <i class="mdi mdi-calendar-text mr-3" style="color: #f44336!important;"></i>
-                             Available Setting
+                             Available Manager
                         </a>
                     </li>
                 </ul>

@@ -96,7 +96,7 @@
                         <input type="text" name="title" class="form-control" id="title"  placeholder="Enter feature name">
                     </div>
                     <div class="form-group">
-                        <label for="wedding_type">Wedding Type</label>
+                        <label for="wedding_type">Event Type</label>
                         <select name="wedding_type" id="wedding_type" class="form-control">
                         <?php foreach ($category as $categories) : ?>
                             <option value="<?= $categories->id; ?>"><?= $categories->wedding_type; ?> - Price: <?= number_format($categories->price, 2); ?></option>
@@ -104,7 +104,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="description">Description</label>
+                        <label for="description">Description(own notes)</label>
                         <textarea name="description" class="form-control" id="description" rows="3" placeholder="Leave description about this feature"></textarea>
                     </div>
                      <a href="service_list.php" class="btn btn-sm btn-danger float-right" style="font-size: 12px;">Cancel</a>
