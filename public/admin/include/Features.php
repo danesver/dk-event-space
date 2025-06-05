@@ -4,7 +4,7 @@ class Features extends DB_Object
 {
     protected static $db_table = "tbl_features";
     protected static $db_table_fields = array(
-        'feature_id',
+        
         'category_id',
         'title',
         'description'
