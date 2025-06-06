@@ -70,7 +70,13 @@ class HomeController extends Controller
     {
         $this->middleware('auth');
          // Fetch all categories from the database
-        $bookingDates = DB::table('tblweddingbook')->where('booking_id','!=',$id)->pluck('wedding_date')->toArray();
+        //$bookingDates = DB::table('tblweddingbook')->where('booking_id','!=',$id)->pluck('wedding_date')->toArray();
+
+        $bookingDates = DB::table('tblweddingbook')
+                        ->where('booking_id', '!=', $id)
+                        ->select('wedding_date', 'event_slot') // replace 'slot' with actual column name if different
+                        ->get()
+                        ->toArray();
         $bookingData = DB::table('tblweddingbook')->where('booking_id',$id)->first();
         $quotation = DB::table('tblweddingquotation')->get();
 

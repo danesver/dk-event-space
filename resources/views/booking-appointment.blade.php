@@ -441,7 +441,7 @@
 
    <script>
          // Wait for the DOM to fully load
-         document.addEventListener('DOMContentLoaded', function() {
+         /*document.addEventListener('DOMContentLoaded', function() {
             // List of dates to disable (format: YYYY-MM-DD)
 
             const disabledDates = @json($bookingDates);  //['2025-01-04', '2023-01-10'];
@@ -459,9 +459,78 @@
                      e.target.value = '';  // Clear the selected date if it's disabled
                   }
             });
-         });
-      </script>
+         });*/
 
+
+         /*document.addEventListener('DOMContentLoaded', function() {
+            const disabledBookings = @json($bookingDates); // Array of { wedding_date, event_slot }
+
+            const dateInput = document.getElementById('wedding-date');
+            const slotInput = document.getElementById('event_slot');
+
+            function checkIfDateSlotBooked() {
+               const selectedDate = dateInput.value;
+               const selectedSlot = slotInput.value;
+
+               const isBooked = disabledBookings.some(booking =>
+                     booking.wedding_date === selectedDate && booking.event_slot === selectedSlot
+               );
+
+               if (isBooked) {
+                     Swal.fire({
+                        title: 'Error!',
+                        text: 'This date and slot is already booked.',
+                        icon: 'error',
+                        confirmButtonText: 'Ok'
+                     });
+
+                     // Optionally clear values
+                     // dateInput.value = '';
+                     // slotInput.value = '';
+               }
+            }
+
+            dateInput.addEventListener('input', checkIfDateSlotBooked);
+            slotInput.addEventListener('change', checkIfDateSlotBooked);
+         });*/
+
+         
+      </script>
+      <script>
+            document.addEventListener('DOMContentLoaded', function() {
+               const disabledBookings = @json($bookingDates); // Array of { wedding_date, event_slot }
+
+               const dateInput = document.getElementById('wedding-date');
+               const slotInput = document.getElementById('event_slot');
+
+               function checkIfDateSlotBooked() {
+                  const selectedDate = dateInput.value;
+                  const selectedSlot = slotInput.value;
+
+                  if (!selectedDate || !selectedSlot) return; // Don't check unless both fields are filled
+
+                  const isBooked = disabledBookings.some(booking =>
+                        booking.wedding_date === selectedDate && booking.event_slot === selectedSlot
+                  );
+
+                  if (isBooked) {
+                        Swal.fire({
+                           title: 'Error!',
+                           text: 'This date and slot is already booked.',
+                           icon: 'error',
+                           confirmButtonText: 'Ok'
+                        });
+
+                        // Optionally clear fields or just prevent form submit
+                        // dateInput.value = '';
+                        // slotInput.value = '';
+                  }
+               }
+
+               dateInput.addEventListener('change', checkIfDateSlotBooked);
+               slotInput.addEventListener('change', checkIfDateSlotBooked);
+            });
+   </script>
    <script>
          // jQuery to show the input field when "Others" is selected
          document.getElementById('no_of_guest').addEventListener('change', function() {
