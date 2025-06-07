@@ -261,6 +261,7 @@ function confrimVisit(id) {
                         flatpickr("#visit_time", {
                             enableTime: true,
                             noCalendar: true,
+                             disableMobile: true,
                             dateFormat: "H:i",
                             time_24hr: true,
                             minTime: selected.available_start_time.slice(0,5), // "09:00"
@@ -273,6 +274,7 @@ function confrimVisit(id) {
             // Initialize time field empty first
             flatpickr("#visit_time", {
                 enableTime: true,
+                disableMobile: true,
                 noCalendar: true,
                 dateFormat: "H:i",
                 time_24hr: true,
