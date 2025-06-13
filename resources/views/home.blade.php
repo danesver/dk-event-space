@@ -109,7 +109,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
                         <h3 class="rr-section-title wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: rrfadeRight;">Hi To My Events.</h3>
                     </div>
                     <div class="col-12">
-                        <div class="">
+                        <div class="table-responsive">
                             <table class="table table-content table-responsive">
                                 <thead>
                                     <tr>
