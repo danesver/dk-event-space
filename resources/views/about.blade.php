@@ -20,7 +20,7 @@
                Qaca House</span>
                <h3 class="rr-section-title pb-15 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s"> We
                   Will Make Your Dream
-                  Wedding A Reality</h3>
+                  Event A Reality</h3>
                <div class="rr-section-main mb-40 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                   <p>Qaca House is Kuala Lumpur’s newest event space, offering a perfect blend of modern elegance and versatility in the heart of the city. Designed to host a variety of occasions like weddings, corporate meetings, product launches, private dinners, and more. Our stunning venue features customizable layouts and state-of-the-art facilities to bring your vision to life. With a dedicated team ensuring every detail is seamless, Qaca House is where unforgettable moments are created and cherished.</p>
                </div>
@@ -122,7 +122,7 @@
 </div>-->
 <!-- fact area end -->
 <!-- service-3 area start -->
-<section class="rr-service-3-area pt-120 fix">
+<!--<section class="rr-service-3-area pt-120 fix">
    <div class="container p-relative">
       <div class="row">
          <div class="col-xl-12 col-lg-10 col-md-10 col-12">
@@ -195,7 +195,7 @@
          </div>
       </div>
    </div>
-</section>
+</section>-->
 <!-- service-3 area end -->
 <!-- project-slider area start -->
 <!--<section class="rr-project-slider-area rr-project-slider-bg p-relative fix pt-120">
