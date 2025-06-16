@@ -101,7 +101,7 @@
    </div>
 </section>
 <!-- service area end -->
-<!-- about area start -->
+<!-- about area start
 <section class="rr-about-area pt-120 pb-120 fix">
    <div class="container">
       <div class="row gx-30">
@@ -133,6 +133,7 @@
       </div>
    </div>
 </section>
+    -->
 <!-- about area end -->
 <!-- testimonial area start -->
 <!--<section class="rr-testimonial-area p-relative pt-110 pb-120 fix">
