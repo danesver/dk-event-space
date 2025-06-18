@@ -286,20 +286,20 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
                             ">* Please click on the action to schedule site&nbsp;vist</h6>
                             @foreach($myEvents as $item)
                                 <div class="event-card">
-                                    <div><strong style="color:red;">Full Name:</strong> {{$item->firstname}} {{$item->lastname}}</div>
-                                    <div><strong style="color:red;">Phone:</strong> {{$item->phone}}</div>
-                                    <div><strong style="color:red;">Email:</strong> {{$item->user_email}}</div>
-                                    <div><strong style="color:red;">Event Type:</strong> 
+                                    <div><strong style="color:black;">Full Name:</strong> {{$item->firstname}} {{$item->lastname}}</div>
+                                    <div><strong style="color:black;">Phone:</strong> {{$item->phone}}</div>
+                                    <div><strong style="color:black;">Email:</strong> {{$item->user_email}}</div>
+                                    <div><strong style="color:black;">Event Type:</strong> 
                                         @if($item->wedding_type =='Other Event Type')
                                             {{$item->other_wedding_type}}
                                         @else
                                             {{$item->wedding_type}}
                                         @endif
                                     </div>
-                                    <div><strong style="color:red;">Event Date:</strong> {{$item->wedding_date}}</div>
-                                    <div><strong style="color:red;">Event Slot:</strong> {{$item->event_slot}}</div>
-                                    <div><strong style="color:red;">Visit Date & Time:</strong> {{$item->visit_date}} {{$item->visit_time}}</div>
-                                    <div><strong style="color:red;">Quotation:</strong> 
+                                    <div><strong style="color:black;">Event Date:</strong> {{$item->wedding_date}}</div>
+                                    <div><strong style="color:black;">Event Slot:</strong> {{$item->event_slot}}</div>
+                                    <div><strong style="color:black;">Visit Date & Time:</strong> {{$item->visit_date}} {{$item->visit_time}}</div>
+                                    <div><strong style="color:black;">Quotation:</strong> 
                                         @if($item->pdf)
                                             <a href="{{ asset($item->pdf) }}" target='_blank'>View</a>
                                         @else
