@@ -98,15 +98,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-family: var(--rr-ff-p);
 }
 
-/* Hide table on small screens */
-@media (max-width: 767px) {
-    .desktop-table {
-        display: none;
-    }
-    .mobile-card {
-        display: block;
-    }
-}
+
 
 /* Default: Show table, hide card on large screens */
 .desktop-table {
@@ -136,6 +128,26 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     margin-right: 8px;
     font-size: 18px;
 }
+
+.desktop-table {
+  display: table;
+}
+
+@media (max-width: 768px) {
+  .desktop-table {
+    display: none !important;
+  }
+}
+
+/* Hide table on small screens */
+@media (max-width: 767px) {
+    .desktop-table {
+        display: none;
+    }
+    .mobile-card {
+        display: block !important;
+    }
+}
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
@@ -148,7 +160,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
                         <h3 class="rr-section-title wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: rrfadeRight;">Hi To My Events.</h3>
                     </div>
                     <div class="col-12">
-                        <div class="table-responsive  desktop-table">
+                        <div class="table-responsive desktop-table">
                             <table class="table table-content table-responsive">
                                 <thead>
                                     <tr>
