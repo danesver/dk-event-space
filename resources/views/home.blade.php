@@ -97,6 +97,45 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     resize: none;
     font-family: var(--rr-ff-p);
 }
+
+/* Hide table on small screens */
+@media (max-width: 767px) {
+    .desktop-table {
+        display: none;
+    }
+    .mobile-card {
+        display: block;
+    }
+}
+
+/* Default: Show table, hide card on large screens */
+.desktop-table {
+    display: block;
+}
+.mobile-card {
+    display: none;
+}
+
+/* Simple Card Style for Mobile */
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.event-card div {
+    margin-bottom: 6px;
+}
+.event-card strong {
+    display: inline-block;
+    width: 120px;
+}
+.event-actions a {
+    margin-right: 8px;
+    font-size: 18px;
+}
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
@@ -109,7 +148,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
                         <h3 class="rr-section-title wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: rrfadeRight;">Hi To My Events.</h3>
                     </div>
                     <div class="col-12">
-                        <div class="table-responsive">
+                        <div class="table-responsive  desktop-table">
                             <table class="table table-content table-responsive">
                                 <thead>
                                     <tr>
@@ -219,6 +258,57 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
                                    
                                 </tbody>
                             </table>
+                        </div>
+
+                        <!-- Mobile Card View -->
+                        <div class="mobile-card">
+                            @foreach($myEvents as $item)
+                                <div class="event-card">
+                                    <div><strong style="color:red;">Full Name:</strong> {{$item->firstname}} {{$item->lastname}}</div>
+                                    <div><strong style="color:red;">Phone:</strong> {{$item->phone}}</div>
+                                    <div><strong style="color:red;">Email:</strong> {{$item->user_email}}</div>
+                                    <div><strong style="color:red;">Event Type:</strong> 
+                                        @if($item->wedding_type =='Other Event Type')
+                                            {{$item->other_wedding_type}}
+                                        @else
+                                            {{$item->wedding_type}}
+                                        @endif
+                                    </div>
+                                    <div><strong style="color:red;">Event Date:</strong> {{$item->wedding_date}}</div>
+                                    <div><strong style="color:red;">Event Slot:</strong> {{$item->event_slot}}</div>
+                                    <div><strong style="color:red;">Visit Date & Time:</strong> {{$item->visit_date}} {{$item->visit_time}}</div>
+                                    <div><strong style="color:red;">Quotation:</strong> 
+                                        @if($item->pdf)
+                                            <a href="{{ asset($item->pdf) }}" target='_blank'>View</a>
+                                        @else
+                                            Not Available
+                                        @endif
+                                    </div>
+                                    <div><strong style="color:red;">Status:</strong> 
+                                        <span class="
+                                            @if($item->wedding_status == 'Pending Booking' || $item->wedding_status == 'Pending Visit') pending
+                                            @elseif($item->wedding_status == 'Confirm Visit' || $item->wedding_status == 'Confirm Booking') confirmed
+                                            @else other @endif">
+                                            {{$item->wedding_status}}
+                                        </span>
+                                    </div>
+                                    <div class="event-actions">
+                                        @if($item->wedding_status == 'Pending Visit' && $item->wedding_status != 'Cancel Booking')
+                                            <a onclick="confrimVisit({{$item->booking_id}})" title="Confirm Visit">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </a>
+                                        @endif
+                                        <a href="{{ route('book-appointment-edit', ['id' => $item->booking_id]) }}" title="Edit Booking">
+                                            <i class="fa fa-edit"></i>
+                                        </a>
+                                        @if($item->wedding_status != 'Cancel Booking')
+                                            <a onclick="cancelBooking({{$item->booking_id}})" title="Cancel Booking">
+                                                <i class="fas fa-calendar-times"></i>
+                                            </a>
+                                        @endif
+                                    </div>
+                                </div>
+                            @endforeach
                         </div>
                       
                     </div>
