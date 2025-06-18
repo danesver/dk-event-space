@@ -98,7 +98,25 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-family: var(--rr-ff-p);
 }
 
+.desktop-table {
+  display: block;
+}
 
+@media (max-width: 768px) {
+  .desktop-table {
+    display: none !important;
+  }
+}
+
+/* Hide table on small screens */
+@media (max-width: 767px) {
+    .desktop-table {
+        display: none;
+    }
+    .mobile-card {
+        display: block !important;
+    }
+}
 
 /* Default: Show table, hide card on large screens */
 .desktop-table {
@@ -126,28 +144,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 }
 .event-actions a {
     margin-right: 8px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
-.desktop-table {
-  display: table;
-}
 
-@media (max-width: 768px) {
-  .desktop-table {
-    display: none !important;
-  }
-}
-
-/* Hide table on small screens */
-@media (max-width: 767px) {
-    .desktop-table {
-        display: none;
-    }
-    .mobile-card {
-        display: block !important;
-    }
-}
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
