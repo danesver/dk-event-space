@@ -4,7 +4,7 @@
 <style>
     /* Basic table styling */
 .table-content {
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -161,6 +161,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
                     </div>
                     <div class="col-12">
                         <div class="table-responsive desktop-table">
+                            <h6 style="
+                                    color: red;
+                                    margin: 0px;
+                                    padding: 0px;
+                                ">* Please click on the action to schedule site&nbsp;vist</h6>
                             <table class="table table-content table-responsive">
                                 <thead>
                                     <tr>
@@ -274,6 +279,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 
                         <!-- Mobile Card View -->
                         <div class="mobile-card">
+                            <h6 style="
+                                color: red;
+                                margin: 0px;
+                                padding: 0px;
+                            ">* Please click on the action to schedule site&nbsp;vist</h6>
                             @foreach($myEvents as $item)
                                 <div class="event-card">
                                     <div><strong style="color:red;">Full Name:</strong> {{$item->firstname}} {{$item->lastname}}</div>
